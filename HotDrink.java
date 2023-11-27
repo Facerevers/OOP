@@ -12,6 +12,6 @@ public class HotDrink extends BottleOfWater{
 	}
 	@Override
 	public String toString(){
-		return "BottleOfWater{" + "name=" + super.getName() + ";cost=" + super.getCost + ";volume=" + super.volume + ";temperature=" temperature"}";
+		return "BottleOfWater{" + "name=" + super.getName() + ";cost=" + super.getCost() + ";volume=" + super.volume + ";temperature=" temperature"}";
 	}
 }
